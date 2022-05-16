@@ -1,0 +1,11 @@
+{
+  "name": "webtechgroupwork",
+  "version": "1.0.0",
+  "description": "Web technologies group work - Group 3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"This is a test\";"
+  },
+  "author": "ITE Level 300 J - Group 3",
+  "license": "ISC"
+}
