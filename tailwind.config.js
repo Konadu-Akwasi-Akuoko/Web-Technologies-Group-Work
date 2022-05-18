@@ -27,8 +27,9 @@ module.exports = {
           900: "#e4e5f7",
           1000: "#ffffff",
         },
-        "customGrey": {
-          100: "#ffffff",
+        customGrey: {
+          0: "#fff",
+          100: "#F4F4F4",
           200: "#e3e3e3",
           300: "#c6c6c6",
           400: "#aaaaaa",
@@ -39,6 +40,9 @@ module.exports = {
           900: "#1c1c1c",
           1000: "#000000",
         },
+      },
+      spacing: {
+        container: "15%",
       },
     },
   },
