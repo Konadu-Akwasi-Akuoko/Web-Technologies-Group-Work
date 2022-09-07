@@ -846,13 +846,14 @@
         <div class="row">
           <div class="col-lg-7 mb-2">
             <div class="contact-form bg-light mb-4" style="padding: 30px">
-              <form>
+              <form name="contact" action="POST" data-netlify="true">
                 <div class="row">
                   <div class="col-6 form-group">
                     <input
                       type="text"
                       class="form-control p-4"
                       placeholder="Your Name"
+                      name="name"
                       required="required"
                     />
                   </div>
@@ -861,6 +862,7 @@
                       type="email"
                       class="form-control p-4"
                       placeholder="Your Email"
+                      name="Email"
                       required="required"
                     />
                   </div>
@@ -870,6 +872,7 @@
                     type="text"
                     class="form-control p-4"
                     placeholder="Subject"
+                    name="Subject"
                     required="required"
                   />
                 </div>
@@ -878,6 +881,7 @@
                     class="form-control py-3 px-4"
                     rows="5"
                     placeholder="Message"
+                    name="Message"
                     required="required"
                   ></textarea>
                 </div>
@@ -1103,10 +1107,11 @@
         &copy; <a href="#">Royal Cars</a>. All Rights Reserved.
       </p>
       <p class="m-0 text-center text-body">
-        Designed by <a href="https://konadu.netlify.app">Konadu Akwasi Akuoko</a> 
+        Designed by
+        <a href="https://konadu.netlify.app">Konadu Akwasi Akuoko</a>
       </p>
       <p class="m-0 text-center text-body">
-        With help from <a href="https://htmlcodex.com">HTML Codex</a> 
+        With help from <a href="https://htmlcodex.com">HTML Codex</a>
       </p>
     </div>
     <!-- Footer End -->
